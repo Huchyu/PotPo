@@ -46,6 +46,12 @@
     <Filter Include="소스 파일\00.Manager\02.StateManager">
       <UniqueIdentifier>{5fe71ceb-1c93-4152-a6b6-b37306546a38}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\04.Obj">
+      <UniqueIdentifier>{1b3eab88-7ce2-4ee4-8a5b-e5a700bbfdfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Obj\01.Player">
+      <UniqueIdentifier>{0265621a-20e0-4d54-ad19-5e246f441df4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -87,6 +93,12 @@
     <ClInclude Include="Struct.h">
       <Filter>헤더 파일\Include</Filter>
     </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\04.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\04.Obj\01.Player</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CMain.cpp">
@@ -118,6 +130,12 @@
     </ClCompile>
     <ClCompile Include="StateManager.cpp">
       <Filter>소스 파일\00.Manager\02.StateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\04.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\04.Obj\01.Player</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

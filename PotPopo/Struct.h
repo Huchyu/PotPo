@@ -5,12 +5,19 @@ typedef struct Position
 {
 	int x;
 	int y;
-}Pos;
+}POS;
+
+typedef struct Position
+{
+	int cx;
+	int cy;
+}CXPOS;
 
 typedef struct Infomation
 {
 	bool act;
 	const char* shape;
-	Pos pos;
+	POS pos;
+	CXPOS cxpos;
 	Color color;
-}Info;
+}INFO;
