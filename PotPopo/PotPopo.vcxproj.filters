@@ -19,6 +19,33 @@
     <Filter Include="소스 파일\00.Manager\01.DoubleBuffer">
       <UniqueIdentifier>{7f69227e-9a41-40a6-b7f1-e8f5e6a9f2da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{3f897f0b-1459-492e-9179-77f9aa1d71a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.MainGame">
+      <UniqueIdentifier>{a1388948-cb48-4031-bf8c-bb69170f9cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Map">
+      <UniqueIdentifier>{8e38b07d-b42f-49ec-b867-a556af1e0f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Map\01.FirstStage">
+      <UniqueIdentifier>{83c5ede0-4eb6-4469-b98c-3347759e572d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.StateObj">
+      <UniqueIdentifier>{ed46c319-6217-44cd-a90c-392f2da072d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.StateObj\01.Logo">
+      <UniqueIdentifier>{2d8db52d-56c2-4e96-bab4-49708dfa5ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.StateObj\02.Menu">
+      <UniqueIdentifier>{efece414-6bea-485c-8370-d679ed055541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.StateObj\03.Game">
+      <UniqueIdentifier>{87f1b2ee-b906-4a8a-8cb0-3dbcffb9a6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.Manager\02.StateManager">
+      <UniqueIdentifier>{5fe71ceb-1c93-4152-a6b6-b37306546a38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -27,6 +54,39 @@
     <ClInclude Include="DoubleBuffer.h">
       <Filter>소스 파일\00.Manager\01.DoubleBuffer</Filter>
     </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\01.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>소스 파일\02.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstStage.h">
+      <Filter>소스 파일\02.Map\01.FirstStage</Filter>
+    </ClInclude>
+    <ClInclude Include="StateObj.h">
+      <Filter>소스 파일\03.StateObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\03.StateObj\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>소스 파일\03.StateObj\02.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\03.StateObj\03.Game</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>소스 파일\00.Manager\02.StateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CMain.cpp">
@@ -34,6 +94,30 @@
     </ClCompile>
     <ClCompile Include="DoubleBuffer.cpp">
       <Filter>소스 파일\00.Manager\01.DoubleBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\01.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일\02.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstStage.cpp">
+      <Filter>소스 파일\02.Map\01.FirstStage</Filter>
+    </ClCompile>
+    <ClCompile Include="StateObj.cpp">
+      <Filter>소스 파일\03.StateObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\03.StateObj\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\03.StateObj\02.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\03.StateObj\03.Game</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>소스 파일\00.Manager\02.StateManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

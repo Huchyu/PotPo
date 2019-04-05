@@ -115,12 +115,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Define.h" />
     <ClInclude Include="DoubleBuffer.h" />
+    <ClInclude Include="Enum.h" />
+    <ClInclude Include="FirstStage.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="include.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="StateManager.h" />
+    <ClInclude Include="StateObj.h" />
+    <ClInclude Include="Struct.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CMain.cpp" />
     <ClCompile Include="DoubleBuffer.cpp" />
+    <ClCompile Include="FirstStage.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="StateManager.cpp" />
+    <ClCompile Include="StateObj.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
