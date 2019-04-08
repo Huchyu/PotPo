@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\04.Obj\01.Player">
       <UniqueIdentifier>{0265621a-20e0-4d54-ad19-5e246f441df4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\00.Manager\03.KeyManager">
+      <UniqueIdentifier>{813bbc58-0e0a-4e3c-9f21-e8143dc7a9c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -99,6 +102,9 @@
     <ClInclude Include="Player.h">
       <Filter>소스 파일\04.Obj\01.Player</Filter>
     </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>소스 파일\00.Manager\03.KeyManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CMain.cpp">
@@ -136,6 +142,9 @@
     </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>소스 파일\04.Obj\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>소스 파일\00.Manager\03.KeyManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

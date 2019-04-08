@@ -1,6 +1,7 @@
 #include "MainGame.h"
 #include "StateManager.h"
 #include "DoubleBuffer.h"
+#include "KeyManager.h"
 
 void MainGame::Initialize()
 {
@@ -11,7 +12,7 @@ void MainGame::Initialize()
 
 void MainGame::Progress()
 {
-
+	KeyManager::GetInst()->CheckKey();
 	DoubleBuffer::GetInst()->FlipBuffer();
 	DoubleBuffer::GetInst()->ClearBuffer();
 

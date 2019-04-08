@@ -5,3 +5,5 @@
 
 #define MapWidth 48
 #define MapHeight 38
+
+#define ObjHeight 2

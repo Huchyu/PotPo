@@ -8,6 +8,7 @@ void Game::Initialize()
 {
 	firstStage = new FirstStage;
 	player = new Player;
+	player->Initialize();
 	firstStage->Initialize();
 }
 
