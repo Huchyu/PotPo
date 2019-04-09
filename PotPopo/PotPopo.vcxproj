@@ -115,11 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CollisionManager.h" />
     <ClInclude Include="Define.h" />
     <ClInclude Include="DoubleBuffer.h" />
     <ClInclude Include="Enum.h" />
     <ClInclude Include="FirstStage.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Ground.h" />
     <ClInclude Include="include.h" />
     <ClInclude Include="KeyManager.h" />
     <ClInclude Include="Logo.h" />
@@ -134,9 +136,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CMain.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
     <ClCompile Include="DoubleBuffer.cpp" />
     <ClCompile Include="FirstStage.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Ground.cpp" />
     <ClCompile Include="KeyManager.cpp" />
     <ClCompile Include="Logo.cpp" />
     <ClCompile Include="MainGame.cpp" />

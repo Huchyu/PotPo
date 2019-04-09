@@ -6,8 +6,8 @@
 void Player::Initialize()
 {
 	info.act = true;
-	info.x = 50;
-	info.y = 20;
+	info.x = 14;
+	info.y = 36;
 	info.shape[0] = "¡Ü";
 	info.shape[1] = "¡â";
 	info.cx = strlen(info.shape[1]);
@@ -28,8 +28,8 @@ void Player::Progress()
 
 	if (dwKey & KEY_UP )
 	{
-		if(info.y > 2)
-		info.y--;
+		if (JumpKey == false & JumpDown == false)
+		JumpKey = true;
 	}
 
 	if (dwKey & KEY_RIGHT)
@@ -38,12 +38,37 @@ void Player::Progress()
 		info.x += 2;
 	}
 
-	if (dwKey & KEY_DOWN)
+	//if (dwKey & KEY_DOWN)
+	//{
+	//	if (info.y < 36)
+	//	info.y++;
+	//}
+
+	if (JumpKey)
 	{
-		if (info.y < 36)
-		info.y++;
+		if (info.y > 2)
+		{
+			info.y--;
+			JumpNum++;
+		}
+
+		if (JumpNum == 5)
+		{
+			JumpDown = true;
+			JumpKey = false;
+		}
 	}
 
+	if (JumpDown)
+	{
+		info.y++;
+		JumpNum--;
+
+		if (JumpNum == 0)
+		{
+			JumpDown = false;
+		}
+	}
 }
 
 void Player::Render()

@@ -1,14 +1,15 @@
 #pragma once
-#include "Map.h"
-
-class FirstStage : public Map
+#include "Obj.h"
+class Ground : public Obj
 {
 public:
 	virtual void Initialize();
 	virtual void Progress();
 	virtual void Render();
 	virtual void Release();
+
 public:
-	FirstStage();
-	~FirstStage();
+	Ground();
+	~Ground();
 };
+

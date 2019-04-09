@@ -55,6 +55,12 @@
     <Filter Include="소스 파일\00.Manager\03.KeyManager">
       <UniqueIdentifier>{813bbc58-0e0a-4e3c-9f21-e8143dc7a9c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\00.Manager\04.CollisionManager">
+      <UniqueIdentifier>{029de4d3-d1f1-4517-8d06-fd2a7c02b4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Obj\02.Ground">
+      <UniqueIdentifier>{c159e91a-175f-4830-ae43-bea9769bbd55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -105,6 +111,12 @@
     <ClInclude Include="KeyManager.h">
       <Filter>소스 파일\00.Manager\03.KeyManager</Filter>
     </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>소스 파일\00.Manager\04.CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>소스 파일\04.Obj\02.Ground</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CMain.cpp">
@@ -145,6 +157,12 @@
     </ClCompile>
     <ClCompile Include="KeyManager.cpp">
       <Filter>소스 파일\00.Manager\03.KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>소스 파일\00.Manager\04.CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>소스 파일\04.Obj\02.Ground</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

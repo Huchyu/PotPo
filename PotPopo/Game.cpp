@@ -6,9 +6,9 @@
 
 void Game::Initialize()
 {
-	firstStage = new FirstStage;
 	player = new Player;
 	player->Initialize();
+	firstStage = new FirstStage;
 	firstStage->Initialize();
 }
 
@@ -16,6 +16,11 @@ void Game::Progress()
 {
 	player->Progress();
 	firstStage->Progress();
+
+	if (firstStage->GetMapInfo(player->info.x, player->info.y) == firstStage->GetMapInfo(3,37))
+	{
+		DoubleBuffer::GetInst()->WriteBuffer(10, 10, "1", 5);
+	}
 }
 
 void Game::Render()
